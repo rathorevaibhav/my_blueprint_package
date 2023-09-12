@@ -1,4 +1,3 @@
-# my_blueprint.py
 from flask import Blueprint, render_template
 
 my_blueprint = Blueprint('my_blueprint', __name__,
