@@ -31,14 +31,11 @@ setup(
     author_email='vaibhav@coloredcow.com',
     description='this is short description',
     long_description='this is long description',
-    packages=['my_blueprint'],
-    package_data={
-        'my_blueprint': ['static/*.css', 'templates/*.html'],
-    },
+    packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
     platforms='any',
-    extras_require=[],
+    extras_require={},
     install_requires=[],
     tests_require=[],
     classifiers=[]
