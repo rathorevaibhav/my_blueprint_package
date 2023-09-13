@@ -31,7 +31,10 @@ setup(
     author_email='vaibhav@coloredcow.com',
     description='this is short description',
     long_description='this is long description',
-    packages=find_packages(),
+    packages=['my_blueprint'],
+    package_data={
+        'my_blueprint': ['static/*.css', 'templates/*.html'],
+    },
     include_package_data=True,
     zip_safe=False,
     platforms='any',
