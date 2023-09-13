@@ -34,7 +34,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
      package_data={
-        'my_blueprint': ['static/*', 'templates/*'],
+        '': ['static/*', 'templates/*'],
     },
     zip_safe=False,
     platforms='any',
