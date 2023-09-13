@@ -8,6 +8,6 @@ my_blueprint = Blueprint('my_blueprint', __name__,
 def index():
     return 'Hello from My Blueprint!'
 
-@my_blueprint.route('/show_template')
+@my_blueprint.route('/show-template')
 def show_template():
-    return render_template('my_blueprint/my_template.html', message='This is a template message.')
+    return render_template('my_template.html', message='This is a template message.')
