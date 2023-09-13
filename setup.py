@@ -33,9 +33,6 @@ setup(
     long_description='this is long description',
     packages=find_packages(),
     include_package_data=True,
-     package_data={
-        '': ['static/*', 'templates/*'],
-    },
     zip_safe=False,
     platforms='any',
     extras_require=extras_require,
